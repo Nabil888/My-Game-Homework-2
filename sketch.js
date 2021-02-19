@@ -128,7 +128,8 @@ if(gameState === 2){
     if(mousePressedOver(RS)){
       gameState = 0;
       playerLife = 3;
-      
+      bulletNum = 0;
+      score = 0;
     }
 }
   drawSprites();
